@@ -5,9 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Statements\" />
-    <Folder Include="Data\Scripts\" />
-    <Folder Include="Data\Repositories\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
