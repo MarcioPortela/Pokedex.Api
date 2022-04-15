@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokedex.Api", "Pokedex.Api\Pokedex.Api.csproj", "{9E01992F-DFAA-496B-A4BB-16D325AE1BDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokedex.Api.CrossCutting", "Pokedex.Api.CrossCutting\Pokedex.Api.CrossCutting.csproj", "{D4D4673D-8D38-40C1-B0A5-1D42B0DD8A1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokedex.Api.Infra", "Pokedex.Api.Infra\Pokedex.Api.Infra.csproj", "{CF56A03C-9BEC-4681-82F3-1D0C589AD51C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13E7AC75-3F45-4DF1-BDFB-A74FCE6199F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{88652CA8-1D5E-47DE-B547-19E68B931DDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokedex.Api.Tests", "Pokedex.Api.Tests\Pokedex.Api.Tests.csproj", "{8EF488BA-AC4B-492E-8F00-A8B4128C9DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79B7A85A-4741-40C9-AD8D-552D6F9BB177}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E01992F-DFAA-496B-A4BB-16D325AE1BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E01992F-DFAA-496B-A4BB-16D325AE1BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E01992F-DFAA-496B-A4BB-16D325AE1BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E01992F-DFAA-496B-A4BB-16D325AE1BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D4673D-8D38-40C1-B0A5-1D42B0DD8A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D4673D-8D38-40C1-B0A5-1D42B0DD8A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D4673D-8D38-40C1-B0A5-1D42B0DD8A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D4673D-8D38-40C1-B0A5-1D42B0DD8A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF56A03C-9BEC-4681-82F3-1D0C589AD51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF56A03C-9BEC-4681-82F3-1D0C589AD51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF56A03C-9BEC-4681-82F3-1D0C589AD51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF56A03C-9BEC-4681-82F3-1D0C589AD51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF488BA-AC4B-492E-8F00-A8B4128C9DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF488BA-AC4B-492E-8F00-A8B4128C9DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF488BA-AC4B-492E-8F00-A8B4128C9DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF488BA-AC4B-492E-8F00-A8B4128C9DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E01992F-DFAA-496B-A4BB-16D325AE1BDB} = {13E7AC75-3F45-4DF1-BDFB-A74FCE6199F0}
+		{D4D4673D-8D38-40C1-B0A5-1D42B0DD8A1F} = {13E7AC75-3F45-4DF1-BDFB-A74FCE6199F0}
+		{CF56A03C-9BEC-4681-82F3-1D0C589AD51C} = {13E7AC75-3F45-4DF1-BDFB-A74FCE6199F0}
+		{8EF488BA-AC4B-492E-8F00-A8B4128C9DDD} = {88652CA8-1D5E-47DE-B547-19E68B931DDE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {442E8D09-4BC0-42B5-A421-4B2B28AA3116}
+	EndGlobalSection
+EndGlobal
